@@ -1,0 +1,221 @@
+body{
+    background-color: yellow;
+}
+
+.li{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.xyz{
+    display: grid;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.class1{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    border: black 2px solid;
+    margin: 20px;
+    animation: gautam;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes gautam{
+    from{
+        transform: skewX(20deg);
+    }
+    to{
+        transform: skewX(-20deg);
+    }
+}
+
+.class2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    margin: 20px;
+    animation: gomzee;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: alternate;
+}
+
+@keyframes gomzee {
+    from{
+        transform: skewY(20deg)
+    }
+    to{
+        transform: skewY(-20deg);
+    }
+}
+
+.class3{
+    background-color: black;
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    margin: 20px;
+    animation: gau;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+
+@keyframes gau {
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(720deg);
+    }
+}
+
+.class4{
+    background-color: purple;
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    margin: 20px;
+    animation: piku;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+@keyframes piku {
+    from{
+        transform: rotateX(0deg);
+    }
+
+    to{
+        transform: rotateX(50deg);
+    }
+}
+
+.class5{
+    background-color: orangered;
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    margin: 20px;
+    animation: shona;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+@keyframes shona{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(50deg);
+    }
+}
+
+.class6{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    margin: 20px;
+    animation: felu;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-direction: alternate;
+}
+
+@keyframes felu{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(180deg);
+    }
+}
+
+.ol{
+    display: grid;
+    row-gap:20px;
+    justify-content: center;
+}
+.class7 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transition: width 2s;
+}
+.class7:hover{
+    width: 300px;
+}
+
+.class8 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transition: width 2s, height 2s;
+}
+.class8:hover{
+    width: 300px;
+    height: 250px;
+}
+.class9 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transition: width 2s linear;
+}
+.class9:hover{ 
+    width: 300px;
+}
+.class10 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transition: width 2s ease;
+}
+.class10:hover{
+    width: 300px;
+}
+.class11 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transition: width 2s ease-in;
+}
+.class11:hover{
+    width: 300px;
+}
+.class12 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transition: width 2s ease-out;
+}
+.class12:hover{
+    width: 300px;
+}
+.class13 {
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    transition: width 2s ease-in-out;
+}
+.class13:hover{
+    width: 300px;
+}
+
+.back{
+    font-size: 25px;
+}
+
+.nxt{
+    font-size: 25px;
+}

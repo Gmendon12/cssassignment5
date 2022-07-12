@@ -1,0 +1,126 @@
+.h{
+    background-color: orange;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ind{
+    background-color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.hind{
+    padding-top: 10px;
+}
+
+.day{
+    background-color: green;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+body{
+    background-image: url(sky.jpg);
+}
+
+.image1{
+    position: absolute;
+    left: 1100px;
+    top: 50px;
+    animation: gomz;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gomz {
+        from{
+            transform: translateX(0px);
+        }
+        to{
+            transform: translateX(-80px);
+        }
+    }
+
+.image2{
+    position: absolute;
+    top: 150px;
+    animation: gomz1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gomz1 {
+        from{
+            transform: translate(0px);
+        }
+        to{
+            transform: translate(-200px);
+        }
+    }
+
+.image3{
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    animation: gomz2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gomz2 {
+        from{
+            transform: translate(0px);
+        }
+        to{
+            transform: translate(-3000px);
+        }
+    }
+
+.image4{
+    position: absolute;
+    top: 330px;
+    left: 400px;
+}
+
+.image5{
+    position: absolute;
+    top: 410px;
+    left: 430px;
+    animation: gomz3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gomz3 {
+        from{
+            transform: rotateZ(0deg);
+        }
+        to{
+            transform: rotateZ(3000deg);
+        }
+    }
+
+.image6{
+    position: absolute;
+    top: 410px;
+    left: 645px;
+    animation: gomz4;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes gomz4 {
+        from{
+            transform: rotateZ(0deg);
+        }
+        to{
+            transform: rotateZ(3000deg);
+        }
+    }
+
+.image7{
+    position: relative;
+    top: 230px;
+    left: 645px;
+}
